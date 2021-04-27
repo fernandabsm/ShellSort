@@ -23,12 +23,6 @@ void Shell_Sort(char* A, int n)
 					break;
 			}
 			A[j] = x;
-			printf("H = %d \t", h);
-			for (int i = 1; i <= 12; i++)
-			{
-				printf("%c ", A[i]);
-			}
-			printf("\n");
 		}
 	} while (h != 1);
 }
@@ -48,10 +42,6 @@ int main()
 	A[10] = 'E';
 	A[11] = 'L';
 	A[12] = 'O';
-
 	Shell_Sort(A, 12);
-	for (int i = 1; i <= 12; i++)
-	{
-		printf("%c ", A[i]);
-	}
+
 }
